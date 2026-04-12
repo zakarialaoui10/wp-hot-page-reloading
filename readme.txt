@@ -1,55 +1,61 @@
 === Hot Page Reloading ===
-Contributors:      The WordPress Contributors
-Tags:              block
-Tested up to:      6.8
-Stable tag:        0.1.0
-License:           GPL-2.0-or-later
-License URI:       https://www.gnu.org/licenses/gpl-2.0.html
+Contributors: zakarialaoui10
+Donate link: https://ko-fi.com/zakariaelalaoui
+Tags: github, giscus, zikojs, comments, discussions, hot reload
+Tested up to: 6.9
+Stable tag: 1.0.0
+License: GPL-2.0-or-later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Example block scaffolded with Create Block tool.
+Enhance your development workflow with automatic page reloading while editing content.
 
 == Description ==
 
-This is the long description. No limit, and you can use Markdown (as well as in the following sections).
+**Hot Page Reloading** improves the WordPress editing experience by automatically refreshing the preview page whenever you save changes in the editor.
 
-For backwards compatibility, if this section is missing, the full length of the short description will be used, and
-Markdown parsed.
+No setup required — just install and activate the plugin, and it works out of the box.
+
+### Features
+
+* ⚡ Instant preview refresh on save
+* 🔌 Zero configuration required
+* 🧑‍💻 Optimized for developers and content creators
+* 🪶 Lightweight and fast
+
+Whether you're tweaking layouts or updating content, this plugin keeps your preview in sync without manual refresh.
 
 == Installation ==
 
-This section describes how to install the plugin and get it working.
+1. Upload the plugin files to the `/wp-content/plugins/hot-page-reloading` directory, or install it via the WordPress Plugins screen.
+2. Activate the plugin through the **Plugins** screen in WordPress.
 
-e.g.
-
-1. Upload the plugin files to the `/wp-content/plugins/hot-page-reloading` directory, or install the plugin through the WordPress plugins screen directly.
-1. Activate the plugin through the 'Plugins' screen in WordPress
-
+That’s it — no additional configuration needed.
 
 == Frequently Asked Questions ==
 
-= A question that someone might have =
+= What is hot page reloading? =
 
-An answer to that question.
+Hot page reloading automatically refreshes the preview page whenever you save changes in the WordPress editor. This eliminates the need to manually reload the preview, speeding up your workflow.
 
-= What about foo bar? =
+= Do I need to configure anything? =
 
-Answer to foo bar dilemma.
+No. The plugin works immediately after activation with zero configuration.
+
+= Where does it work? =
+
+It watches the edit page and reloads the associated preview page automatically on save.
 
 == Screenshots ==
 
-1. This screen shot description corresponds to screenshot-1.(png|jpg|jpeg|gif). Note that the screenshot is taken from
-the /assets directory or the directory that contains the stable readme.txt (tags or trunk). Screenshots in the /assets
-directory take precedence. For example, `/assets/screenshot-1.png` would win over `/tags/4.3/screenshot-1.png`
-(or jpg, jpeg, gif).
-2. This is the second screen shot
+1. Editor screen with automatic preview reload
+2. Live preview updating instantly after saving
 
 == Changelog ==
 
-= 0.1.0 =
-* Release
+= 1.0.0 =
 
-== Arbitrary section ==
+* Initial release
 
-You may provide arbitrary sections, in the same format as the ones above. This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation." Arbitrary sections will be shown below the built-in sections outlined above.
+== Additional Information ==
+
+This plugin is designed to be simple and efficient. If you need a faster editing workflow without extra setup, Hot Page Reloading provides a seamless experience.
