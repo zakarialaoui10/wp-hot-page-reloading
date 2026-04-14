@@ -1,7 +1,7 @@
 === Hot Page Reloading ===
 Contributors: zakarialaoui10
 Donate link: https://ko-fi.com/zakariaelalaoui
-Tags: github, giscus, zikojs, comments, discussions, hot reload
+Tags: zikojs, comments, discussions, hot reload, channel broadcast 
 Tested up to: 6.9
 Stable tag: 1.0.0
 License: GPL-2.0-or-later
