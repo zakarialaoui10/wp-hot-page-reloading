@@ -2,10 +2,10 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
-/***/ "./src/hot-page-reloading/shared.js"
-/*!******************************************!*\
-  !*** ./src/hot-page-reloading/shared.js ***!
-  \******************************************/
+/***/ "./src/shared.js"
+/*!***********************!*\
+  !*** ./src/shared.js ***!
+  \***********************/
 (__unused_webpack_module, __webpack_exports__, __webpack_require__) {
 
 __webpack_require__.r(__webpack_exports__);
@@ -180,12 +180,12 @@ const useIPC = (name) => new UseIPC(name);
 var __webpack_exports__ = {};
 // This entry needs to be wrapped in an IIFE because it needs to be isolated against other modules in the chunk.
 (() => {
-/*!*****************************************!*\
-  !*** ./src/hot-page-reloading/slave.js ***!
-  \*****************************************/
+/*!**********************!*\
+  !*** ./src/slave.js ***!
+  \**********************/
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var ziko_src_hooks_use_ipc_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ziko/src/hooks/use-ipc.js */ "./node_modules/ziko/src/hooks/use-ipc.js");
-/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared.js */ "./src/hot-page-reloading/shared.js");
+/* harmony import */ var _shared_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./shared.js */ "./src/shared.js");
 
 
 const slave = (0,ziko_src_hooks_use_ipc_js__WEBPACK_IMPORTED_MODULE_0__.useIPC)(_shared_js__WEBPACK_IMPORTED_MODULE_1__.CHANNEL_NAME);
