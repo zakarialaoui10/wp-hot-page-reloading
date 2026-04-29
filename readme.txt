@@ -1,7 +1,7 @@
 === Hot Page Reloading ===
 Contributors: zakarialaoui10
 Donate link: https://ko-fi.com/zakariaelalaoui
-Tags: zikojs, comments, discussions, hot reload, channel broadcast 
+Tags: zikojs, hot page reload, channel broadcast, Interprocessing communication, developer experience 
 Tested up to: 6.9
 Stable tag: 1.0.0
 License: GPL-2.0-or-later
@@ -21,8 +21,22 @@ No setup required — just install and activate the plugin, and it works out of 
 * 🔌 Zero configuration required
 * 🧑‍💻 Optimized for developers and content creators
 * 🪶 Lightweight and fast
+* ⚙️ Efficient :
+    * Master script runs only in the editor
+    * Slave script runs only for logged-in users with edit_posts capability
+* 🧩 Native : 
+    * No WebSockets, servers, or browser extensions.
+    * Fully integrated into the WordPress lifecycle 
 
 Whether you're tweaking layouts or updating content, this plugin keeps your preview in sync without manual refresh.
+
+### Technical Details
+
+Hot Page Reloading uses a **Master–Slave architecture** powered by `zikojs` IPC hooks.
+It communicates via a broadcast channel between the editor and frontend tabs, and listens to the `wp.data` (`core/editor`) store to trigger reloads only after a successful post save.
+
+Source code available on GitHub:  [zakarialaoui10/wp-hot-page-reloading](https://github.com/zakarialaoui10/wp-hot-page-reloading)
+
 
 == Installation ==
 
@@ -44,11 +58,6 @@ No. The plugin works immediately after activation with zero configuration.
 = Where does it work? =
 
 It watches the edit page and reloads the associated preview page automatically on save.
-
-== Screenshots ==
-
-1. Editor screen with automatic preview reload
-2. Live preview updating instantly after saving
 
 == Changelog ==
 
