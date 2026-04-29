@@ -64,7 +64,3 @@ It watches the edit page and reloads the associated preview page automatically o
 = 1.0.0 =
 
 * Initial release
-
-== Additional Information ==
-
-This plugin is designed to be simple and efficient. If you need a faster editing workflow without extra setup, Hot Page Reloading provides a seamless experience.
